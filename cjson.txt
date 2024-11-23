@@ -1,0 +1,60 @@
+{
+	"clear buffer": 
+    {
+        "prefix": "clearbuffer",
+        "body": 
+        [
+            "while (getchar() != '\\n');",
+        ],
+        "description": "code for clearing buffer"
+    },
+
+
+    
+    "2D Array": 
+	{
+        "prefix": "2darray",
+        "body": 
+		[
+            "int array[ROWS][COLS];",
+            "int i,j;",
+            "",
+            "printf(\"enter %d values: \\n\", ROWS*COLS);",
+            "",
+            "for(i = 0; i < ROWS; i++)",
+            "{",
+            "   for(j = 0; j < COLS; j++)",
+            "   {",
+            "       scanf(\"%d\", &array[i][j]);",
+            "   }",
+            "}",
+        ],
+        "description": "scanf printf and loop for 2d array"
+    },
+
+    "Start Design":
+	{
+        "prefix": "start",
+        "body":
+		[
+            "/*",
+            "AUTHOR: Michael Casey",
+            "DATE:",
+			"PROGRAM",
+            "*/",
+            "",
+            "#include <stdio.h>",
+            "",
+            "#define SIZE",
+            "",
+            "int main()",
+            "{",
+            "",
+            "    return 0;",
+            "}",
+
+        ],
+        "description": "start",
+    },
+
+}
